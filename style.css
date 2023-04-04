@@ -1,0 +1,23 @@
+table{
+    border-collapse: collapse;
+    user-select: none;
+}
+
+td{
+    border: 1px solid black;
+    text-align: center;
+
+    cursor: pointer;
+}
+
+td:hover{
+    background-color: grey;
+}
+
+.td{
+    width: 30px;
+}
+
+.active{
+    background-color: grey;
+}
